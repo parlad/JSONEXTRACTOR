@@ -1,0 +1,12 @@
+{
+    "id": "$.id",
+    "definedBy": "$.definedBy",
+    "displayname": "$.featureValues.displayname",
+    "name": "$.featureValues.aname",
+    "restriction": "$.featureValues.restriction",
+    "brand": "$.featureValues.name[*].brand",
+    "manager": "$.featureValues.name[*].manager",
+    "location": "$.featureValues.name[*].company[*].location",
+    "policy": "$.featureValues.name[*].policy[*].policyType"
+}
+

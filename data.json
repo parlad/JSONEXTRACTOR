@@ -1,0 +1,56 @@
+{
+    "datapoints": [
+        {
+            "id": "default.1",
+            "definedBy": "default/0.1",
+            "featureValues": {
+                "displayname": "Health status",
+                "visibility": "normal",
+                "access": "r",
+                "basetype": "text",
+                "description": "Aggregated health status",
+                "format": "text/plain",
+                "aname": "health_status",
+                "restriction": "re:(OK|WARN|ERROR|UNKNOWN)",
+                "name": [
+                    {
+                        "brand": "apple",
+                        "company": [
+                            {"location": "UAS"},
+                            {"location": "UK"}
+                        ],
+                        "manager": "stev"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "kdl.240",
+            "definedBy": "kdl/0.9",
+            "featureValues": {
+                "displayname": "Delta K",
+                "visibility": "normal",
+                "access": "rw",
+                "basetype": "real",
+                "description": "Delta K",
+                "aname": "Delta_K",
+                "privacy": "false",
+                "restriction": "b32",
+                "name": [
+                    {
+                        "brand": "apple",
+                        "company": [
+                            {"location": "canada"},
+                            {"location": "UK"}
+                        ],
+                        "policy": [
+                            {"policyType": "Type1"},
+                            {"policyType": "Type2"}
+                        ],
+                        "manager": "abc"
+                    }
+                ]
+            }
+        }
+    ]
+}
